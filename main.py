@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # CONFIG SECURISE - 100% Lushi
 GROQ_KEY = os.getenv("GROQ_API_KEY")
-ELEVEN_KEY = os.getenv("sk_83d6c3f7f0dc6f789056cffa191a05c6ccb232e22e70fb30")
+ELEVEN_KEY = os.getenv("ELEVENLABS_API_KEY")
 VOICE_ID = os.getenv("ELEVEN_VOICE_ID", "21m00Tcm4TlvDq8ikWAM")
 ADMIN_PASS = os.getenv("ADMIN_PASS", "Lushi2026")
 
