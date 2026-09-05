@@ -3,7 +3,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 CREATOR = "Ir Chris Lubaki Tshiombo"
-CREATION_DATE = "25/08/2026 à 10:00 à Lubumbashi"
+CREATION_DATE = "25/08/2026 à 03:01 à Lubumbashi"
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN","").strip()
 GROQ_KEY = os.getenv("GROQ_API_KEY","").strip()
 BOT_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
